@@ -4,7 +4,7 @@
   margin: auto;
   min-height: 512px;
   box-shadow: 0px 35px 70px 0px rgba(255, 163, 125, 0.65), 0px 30px 40px -10px rgba(255, 100, 124, 0.55);
-  background: linear-gradient(180deg, rgba(255, 163, 125, 1) 0%, rgba(255, 99, 124, 1) 100%);
+  background: linear-gradient(180deg, rgb(3, 3, 3) 0%, rgb(36, 10, 14) 100%);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -126,4 +126,10 @@
 
 a.underlined:hover {
   border-bottom: 1px dotted #fff;
+}
+.bg_image{
+  background-image: url(https://virtualbackgrounds.site/wp-content/uploads/2021/02/sofi-stadium.jpg);
+  background-size: cover;
+  height: 100vh;
+  color: #f5f5f5;
 }
